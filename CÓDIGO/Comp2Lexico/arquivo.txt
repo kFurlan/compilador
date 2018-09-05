@@ -1,0 +1,27 @@
+program programa1
+{1 exemplo de programa}
+var a, a1, b: integer;
+var c: real;
+procedure soma(a:integer; b:real)
+/* esta eh uma subrotina *** */
+	var c: integer;
+	begin
+    		if a > b then 
+			c:= 3 + a
+    		$;
+    		b := 4.3
+	end
+begin
+    read(a);
+    a1:= a1 * 2.3444;
+    while a1>0 do
+        write(a1);
+        a1:=a1-1
+    $;
+    while b <> 10 do
+        b:=b+2;
+        a:=a-1;
+        b:=b+1 
+    $;
+    soma(a1;b)
+end.
